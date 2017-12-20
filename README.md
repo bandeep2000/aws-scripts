@@ -2,6 +2,8 @@
 
 Prerequisites:
 
+Please run these commands to configure boto(you could also use pip instead of easy_install)
+
 sudo easy_install boto3
 
 sudo easy_install prettytable
