@@ -19,6 +19,8 @@ region = us-east-1
 
 #Print all ec2 instances
 ec2 = boto3.resource('ec2')
+
+# Get all running instances
 instances = ec2.instances.filter(
     Filters=[{'Name': 'instance-state-name', 'Values': ['running']}])
 #for instance in instances:
