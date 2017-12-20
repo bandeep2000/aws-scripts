@@ -3,7 +3,9 @@
 Prerequisites:
 
 sudo easy_install boto3
+
 sudo easy_install prettytable
+
 sudo easy_install awscli
 
 Run: 
