@@ -12,6 +12,10 @@ sudo easy_install awscli
 
 Run: 
 
-aws configure to intitalize aws credentials
+"aws configure" to intitalize aws credentials , it will prompt you for the credentials
+
+Example:
+aws configure
+AWS Access Key ID [****************BBDY]: 
 
 Please see http://boto3.readthedocs.io/en/latest/guide/quickstart.html for more details
